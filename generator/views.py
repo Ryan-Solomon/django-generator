@@ -3,4 +3,4 @@ from django.http import HttpResponse
 
 
 def home(request):
-    return render(request, 'generator/home.html')
+    return render(request, 'generator/home.html', {'password': '222222'})
